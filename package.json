@@ -1,0 +1,36 @@
+{
+  "name": "docker-express",
+  "version": "1.0.0",
+  "description": "A playground for Docker with Express.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/docker-express#readme",
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "node",
+    "nodemon",
+    "express",
+    "live-reload"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/docker-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/docker-express/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.10.0",
+    "nodemon": "1.12.1"
+  },
+  "license": "MIT"
+}
