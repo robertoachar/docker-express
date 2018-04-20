@@ -1,29 +1,9 @@
 {
-  "extends": "eslint:recommended",
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
   "env": {
-    "es6": true,
-    "node": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 8
+    "es6": true
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "no-console": "off",
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
+    "no-process-env": "error"
   }
 }
