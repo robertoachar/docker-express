@@ -20,10 +20,10 @@ $ npm install
 
 * Running scripts
 
-Action | Usage
------- | -----
-Starting development mode | `npm start`
-Linting code              | `npm run lint`
+| Action                    | Usage          |
+| ------------------------- | -------------- |
+| Starting development mode | `npm start`    |
+| Linting code              | `npm run lint` |
 
 # Docker
 
