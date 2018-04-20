@@ -13,9 +13,7 @@
     "live-reload"
   ],
   "main": "src/index.js",
-  "files": [
-    "src"
-  ],
+  "files": ["src"],
   "scripts": {
     "lint": "eslint src/**/*.js",
     "start": "nodemon src/index.js"
@@ -28,11 +26,18 @@
     "url": "https://github.com/robertoachar/docker-express/issues"
   },
   "dependencies": {
-    "express": "4.16.2"
+    "dotenv": "5.0.1",
+    "express": "4.16.3",
+    "winston": "2.4.1"
   },
   "devDependencies": {
-    "eslint": "4.10.0",
-    "nodemon": "1.12.1"
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "nodemon": "1.17.3",
+    "prettier": "1.12.1"
   },
   "license": "MIT"
 }
